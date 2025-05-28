@@ -1,0 +1,203 @@
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px; 
+    border-width: 5px;
+    border-color: gray;
+    border-style: solid;  
+      
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+li{
+    display: inline;
+    color: lightgrey;
+    cursor: pointer;
+   
+}
+.mg{
+    margin-top: 5px;
+    display: inline;
+
+}
+ul{
+ text-align: center;
+}
+li:hover{
+    color: white;
+}
+.head{
+    text-align: center;
+}
+input{
+    width: 60%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.searchbar{
+    text-align: center;
+}   
+.box{
+    border-width:5px;
+    border-style:solid;
+    border-color: black;
+    margin-top: 3%;
+    display: inline-block;
+    width: 220px;
+
+}   
+.image{
+    text-align: center;
+    background-color: lightgray;
+
+} 
+.box:hover{
+    background-color:brown;
+    color:white;
+    cursor: pointer;
+}
+.box1:hover{
+    background-color:brown;
+    color:white;
+    cursor: pointer;
+
+}
+.detail{
+    background-image: url(background.jpg.jpg);
+    text-align: center; 
+    background-size: cover; 
+    background-position: center;
+    color: aliceblue;
+}
+.det-f{
+     background-color: black;
+     opacity: 0.6;
+}
+
+.heads{
+    background-color: rgb(143, 78, 41);
+    color:white;
+    text-align:center;
+    padding: 30PX;
+    transition: 1s;
+}
+.heads:hover{
+    background-color: aquamarine;
+}
+.menu{
+    background-color:black;
+    color: aliceblue;
+    padding:50px;
+    border-style: solid;
+    transition: 1s;
+    text-align: center;
+    display: block;
+}
+.menu:hover{
+    background-color: brown;
+    color: black;
+}
+.box1{
+    border-width:5px;
+    border-style:solid;
+    border-color: black;
+    margin-top: 5%;
+    display: inline-block;
+    width: 220px;
+    
+}
+.im{
+    background-image:url(photo1\ \(4\).jpg);
+    background-size: cover;
+    height:100vh;
+}
+.im-dark{
+    background-color: black;
+    opacity: o.6;
+}
+h3{
+    padding: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:gray;
+    background-color: black;
+    color:gray;
+    text-align: center;
+}
+h3:hover{
+    color: white;
+}
+button{
+    padding: 20px;
+    margin: 30px;
+    display:block;
+    border-radius: 50px; 
+    margin-left: 45%;
+}
+h2{
+    background-color: lightgray;
+    color: white;
+    padding:50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2s;
+}
+h2:hover{
+    background-color: brown;
+    color: black;
+}
+.about{
+    background-color: black;
+    color: rgb(209, 159, 19);
+    padding: 5%;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    transition-duration: 2s;
+}
+.about:hover{
+    background-color: brown;
+}
+.ak
+{
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+}
+.kj
+{
+    background-color: black;
+    color: rgb(243, 247, 5);
+     border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    transition:2s;
+    padding: 30px;
+}
+.kj:hover{
+    background-color:rgb(182, 182, 70);
+    color: rgb(74, 3, 241);
+}
+.back{
+    background-image: url(background.jpg.jpg);
+    text-align: center; 
+    background-size: cover; 
+    background-position: center;
+    color: black;
+    background-blend-mode: color;
+    margin-top: 5px;
+}
+.in-ba{
+     background-color: rgb(8, 8, 8);
+     opacity: 0.7;
+}
